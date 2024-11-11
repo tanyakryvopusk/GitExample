@@ -1,0 +1,70 @@
+.container-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+body {
+    background: rgba(3, 138, 129, 0.6);
+    background: linear-gradient(to right, #038a81, #a2eee0);
+    font-size: 100%;
+}
+.container-image {
+    overflow: hidden;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-indent: 30px;
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-indent: 30px;
+    border-left-style: solid;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-indent: 30px;
+    border-left-style: solid;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    list-style-type: circle;
+}
+a:link {
+    color: #003333;
+}
+a:visited {
+    color: indigo;
+}
+a:hover {
+    color: darkviolet;
+}
+a:active {
+    color: purple;
+}
+#btn1 {
+    margin: 25px 25px 25px 25px;
+}
+#btn2 {
+    margin: 25px 50px 25px 50px;
+}
+.btn {
+    background-color: oldlace;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: bisque;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
